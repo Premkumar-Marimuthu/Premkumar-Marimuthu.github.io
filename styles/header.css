@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.left-header {
+    width: 200px;
+}
+
+.middle-header {
+    flex: 1;
+}
+
+.right-header {
+    width: 200px;
+}
